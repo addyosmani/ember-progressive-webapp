@@ -6,6 +6,14 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('art', function() {
+    this.route('detail', { path: '/detail/:slug'});
+  });
+  this.route('film', function() {
+    this.route('detail', { path: '/detail/:slug'});
+  });
+  this.route('photography');
+  this.route('design');
 });
 
 export default Router;

@@ -1,0 +1,19 @@
+[{
+  "title": "Tooling Up",
+  "slug": "tooling-up",
+  "primaryColor": "#5a7785",
+  "secondaryColor": "#455a64",
+  "image": "/images/tooling-up.svg"
+}, {
+  "title": "Expressing Brand in Material",
+  "slug": "expressing-brand-in-material",
+  "primaryColor": "#202226",
+  "secondaryColor": "#333",
+  "image": "/images/expressing-brand.svg"
+}, {
+  "title": "New Design Tools",
+  "slug": "new-design-tools",
+  "primaryColor": "#3e50b4",
+  "secondaryColor": "#303fc3",
+  "image": "/images/new-design-tools.svg"
+}]

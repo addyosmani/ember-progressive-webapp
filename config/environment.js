@@ -19,12 +19,20 @@ module.exports = function(environment) {
     }
   };
 
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.baseURL = '';
+    // ember server --environment=development
+  }
+
+  if (environment === 'fastboot-test') {
+    ENV.baseURL = 'http://localhost:3000/';
+    // ember fastboot --serve-assets --environment=fastboot-test
   }
 
   if (environment === 'test') {
@@ -40,7 +48,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '';
   }
 
   return ENV;

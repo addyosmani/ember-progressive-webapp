@@ -1,0 +1,25 @@
+[{
+  "title": "Design from iOS to Android (and Back Again)",
+  "slug": "design-from-ios-to-android-and-back-again",
+  "primaryColor": "#3e50b4",
+  "secondaryColor": "#303F9F",
+  "image": "/images/design-from-ios.png"
+}, {
+  "title": "Demystifying Density",
+  "slug": "demystifying-density",
+  "primaryColor": "#00ccb8",
+  "secondaryColor": "#00b7a5",
+  "image": "/images/demystifying-density.svg"
+}, {
+  "title": "Pixate and Form 1.3",
+  "slug": "pixate-and-form-1-3",
+  "primaryColor": "#eeeeee",
+  "secondaryColor": "#9e9e9e",
+  "image": "/images/pixate-and-form.svg"
+}, {
+  "title": "Welcome to the New Google Design",
+  "slug": "welcome-to-the-new-google-design",
+  "primaryColor": "#3367d6",
+  "secondaryColor": "#2755CC",
+  "image": "/images/welcome.svg"
+}]

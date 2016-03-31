@@ -1,0 +1,10 @@
+{{outlet}}
+
+<div class="two-columns-grid">
+{{#each model as |section|}}
+  {{#link-to "art.detail" section.slug class="article-headline"}}
+  <div class="image" style="background-color: {{section.primaryColor}}; background-image: url('{{section.image}}');"></div>
+    <div class="title" style="background-color: {{section.secondaryColor}};">{{section.title}}</div>
+  {{/link-to}}
+{{/each}}
+</div>
