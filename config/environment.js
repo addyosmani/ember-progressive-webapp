@@ -48,7 +48,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '';
+    // ENV.baseURL = '';
+    ENV.baseURL = 'https://ember-pwa.herokuapp.com/';
   }
 
   return ENV;
