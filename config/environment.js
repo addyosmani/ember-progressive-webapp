@@ -19,6 +19,11 @@ module.exports = function(environment) {
     }
   };
 
+  ENV.serviceWorker = {
+    enabled: true,
+    debug: true,
+    precacheURLs: ['/art/', '/film/', '/images/design-from-ios.png']
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
