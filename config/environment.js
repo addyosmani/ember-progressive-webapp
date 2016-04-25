@@ -22,7 +22,11 @@ module.exports = function(environment) {
   ENV.serviceWorker = {
     enabled: true,
     debug: true,
-    precacheURLs: ['/art/', '/film/', '/images/design-from-ios.png']
+    skipWaiting: true,
+    precacheURLs: ['/art', '/film', '/images/design-from-ios.png'],
+    fallback: [
+     '/offline'
+    ]
   };
 
   if (environment === 'development') {

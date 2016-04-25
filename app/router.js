@@ -14,6 +14,7 @@ Router.map(function() {
   });
   this.route('photography');
   this.route('design');
+  this.route('offline');
 });
 
 export default Router;
