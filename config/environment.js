@@ -22,8 +22,6 @@ module.exports = function(environment) {
   ENV.serviceWorker = {
     enabled: true,
     debug: true,
-    skipWaiting: true,
-    precacheURLs: ['/art', '/film', '/images/design-from-ios.png'],
     fallback: [
      '/offline'
     ]
