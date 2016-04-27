@@ -5,13 +5,13 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
-    fingerprint: {
-      enabled: false
-    },
+    // fingerprint: {
+    //   enabled: false
+    // },
     // ember-cli-inline-content
-    inlineContent: {
-      'critical-path-css': 'app/styles/app.css' /*Not yet minified*/
-    }
+    // inlineContent: {
+    //   'critical-path-css': 'app/styles/app.css' /*Not yet minified*/
+    // }
   });
 
   // Use `app.import` to add additional libraries to the generated
