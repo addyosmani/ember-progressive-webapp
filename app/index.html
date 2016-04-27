@@ -42,10 +42,8 @@
   </head>
     {{content-for "body"}}
 
-    <script src="assets/vendor.js"></script>
-
-    <!-- At least async load in the app payload for now -->
-    <script src="assets/ember-progressive-webapp.js" async></script>
+    <script src="assets/vendor.js" defer></script>
+    <script src="assets/ember-progressive-webapp.js" defer></script>
 
     {{content-for "body-footer"}}
 </html>
