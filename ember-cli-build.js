@@ -10,7 +10,7 @@ module.exports = function(defaults) {
     },
     // ember-cli-inline-content
     inlineContent: {
-      'critical-path-css': 'app/styles/app.css'
+      'critical-path-css': 'app/styles/app.css' /*Not yet minified*/
     }
   });
 
