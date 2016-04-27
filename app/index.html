@@ -36,14 +36,16 @@
     {{content-for 'critical-path-css'}}
 
     <!-- Right now, need to keep this around for FastBoot -->
-    <link rel="stylesheet" href="assets/ember-progressive-webapp.css">
+    <!-- <link rel="stylesheet" href="assets/ember-progressive-webapp.css"> -->
 
     {{content-for "head-footer"}}
   </head>
     {{content-for "body"}}
 
     <script src="assets/vendor.js"></script>
-    <script src="assets/ember-progressive-webapp.js"></script>
+
+    <!-- At least async load in the app payload for now -->
+    <script src="assets/ember-progressive-webapp.js" async></script>
 
     {{content-for "body-footer"}}
 </html>
