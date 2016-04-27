@@ -7,6 +7,10 @@ module.exports = function(defaults) {
     // Add options here
     fingerprint: {
       enabled: false
+    },
+    // ember-cli-inline-content
+    inlineContent: {
+      'critical-path-css': 'dist/assets/ember-progressive-webapp.css'
     }
   });
 
