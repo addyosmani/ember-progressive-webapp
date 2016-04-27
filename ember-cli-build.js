@@ -11,11 +11,6 @@ module.exports = function(defaults) {
     // ember-cli-inline-content
     inlineContent: {
       'critical-path-css': 'app/styles/app.css' /*Not yet minified*/
-    },
-    // ember-cli-gzip
-    gzip: {
-      enabled: true,
-      extensions: ['js', 'css', 'html']
     }
   });
 
