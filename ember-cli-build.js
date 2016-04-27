@@ -9,9 +9,9 @@ module.exports = function(defaults) {
     //   enabled: false
     // },
     // ember-cli-inline-content
-    // inlineContent: {
-    //   'critical-path-css': 'app/styles/app.css' /*Not yet minified*/
-    // }
+    inlineContent: {
+      'critical-path-css': 'app/styles/app.css'
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
