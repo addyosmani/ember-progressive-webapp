@@ -4,7 +4,7 @@ import ENV from 'ember-progressive-webapp/config/environment';
 
 export default Ember.Route.extend({
   model() {
-    return fetch(ENV.baseURL + '/data/film.json')
+    return fetch(ENV.baseURL + 'data/film.json')
       .then(function(response) {
         return response.json();
       });

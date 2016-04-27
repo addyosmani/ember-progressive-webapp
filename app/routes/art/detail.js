@@ -4,7 +4,7 @@ import ENV from 'ember-progressive-webapp/config/environment';
 
 export default Ember.Route.extend({
   model(params) {
-    return fetch(ENV.baseURL + '/data/' + params.slug + '.json')
+    return fetch(ENV.baseURL + 'data/' + params.slug + '.json')
       .then(function(response) {
         return response.json();
       });
