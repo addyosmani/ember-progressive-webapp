@@ -1414,7 +1414,7 @@ define("ember-progressive-webapp/templates/photography", ["exports"], function (
 /* jshint ignore:start */
 
 define('ember-progressive-webapp/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"ember-progressive-webapp","environment":"production","baseURL":"https://addyosmani.com/ember-progressive-webapp/dist/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"ember-progressive-webapp","version":"0.0.0+d2c9d2d8","autoboot":false},"exportApplicationGlobal":false}};
+  return { 'default': {"modulePrefix":"ember-progressive-webapp","environment":"production","baseURL":"https://addyosmani.com/ember-progressive-webapp/dist-no-sw-no-critical/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"ember-progressive-webapp","version":"0.0.0+922c8ca5","autoboot":false},"exportApplicationGlobal":false}};
 });
 
 /* jshint ignore:end */
