@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-fetch": "^1.3.3"
+  },
+  "fastboot": {
+    "moduleWhitelist": [
+      "node-fetch"
+    ],
+    "manifest": {
+      "appFile": "fastboot/ember-progressive-webapp.js",
+      "vendorFile": "fastboot/vendor.js",
+      "htmlFile": "index.html"
+    }
+  }
+}
