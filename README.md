@@ -1,7 +1,14 @@
-# Ember-progressive-webapp
+# Ember Zuperkülblog Progressive Web App
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A Progressive Web App built using Ember.
+
+![](https://cloud.githubusercontent.com/assets/110953/15867845/f26a07e6-2cdc-11e6-9256-14d63358c9fa.jpg)
+
+## How it was built
+
+* [Google I/O 2016 video](https://www.youtube.com/watch?v=srdKq0DckXQ&list=PLNYkxOF6rcIDz1TzmmMRBC-kd8zPRTQIP&index=21)
+* [Slides](https://speakerdeck.com/addyosmani/progressive-web-apps-across-all-frameworks)
+
 
 ## Prerequisites
 
