@@ -1,7 +1,7 @@
 {
   "name": "ember-progressive-webapp",
-  "version": "0.0.0",
-  "description": "Small description for ember-progressive-webapp goes here",
+  "version": "0.1.0",
+  "description": "An Ember Progressive Web App (zuperkulblog)",
   "private": true,
   "directories": {
     "doc": "doc",
