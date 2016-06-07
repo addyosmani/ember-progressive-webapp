@@ -17,7 +17,7 @@
     "node": ">= 0.10.0"
   },
   "author": "",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
     "broccoli-serviceworker": "0.1.0",
