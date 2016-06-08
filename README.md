@@ -9,8 +9,9 @@ A Progressive Web App built using Ember.
 * [Google I/O 2016 video](https://www.youtube.com/watch?v=srdKq0DckXQ&list=PLNYkxOF6rcIDz1TzmmMRBC-kd8zPRTQIP&index=21)
 * [Slides](https://speakerdeck.com/addyosmani/progressive-web-apps-across-all-frameworks)
 
-## WebPageTest
+## WebPageTest / Lighthouse
 
+* [Lighthouse](http://output.jsbin.com/rumere/quiet)
 * [Motorola E - Chrome Beta - Cable](http://www.webpagetest.org/result/160607_7G_1367/)
 * [Motorola E - Chrome Beta - 3GFast](http://www.webpagetest.org/result/160607_PM_136P/)
 
