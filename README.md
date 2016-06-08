@@ -9,12 +9,21 @@ A Progressive Web App built using Ember.
 * [Google I/O 2016 video](https://www.youtube.com/watch?v=srdKq0DckXQ&list=PLNYkxOF6rcIDz1TzmmMRBC-kd8zPRTQIP&index=21)
 * [Slides](https://speakerdeck.com/addyosmani/progressive-web-apps-across-all-frameworks)
 
-## WebPageTest / Lighthouse
+## Performance breakdown
 
 * [Lighthouse](http://output.jsbin.com/rumere/quiet)
-* [Motorola E - Chrome Beta - Cable](http://www.webpagetest.org/result/160607_7G_1367/)
-* [Motorola E - Chrome Beta - 3GFast](http://www.webpagetest.org/result/160607_PM_136P/)
+* WebPageTest Speed Index scores
+  * Before any optimisations or Service Worker. [Deployed version](https://6-dot-ember-pwa-14.appspot.com/#/art)
+    * Cable: [http://www.webpagetest.org/result/160512_EB_AAD/](http://www.webpagetest.org/result/160512_EB_AAD/) - 1st view: 2884
+    * 3G: [http://www.webpagetest.org/result/160512_8F_AA7/](http://www.webpagetest.org/result/160512_8F_AA7/) - 1st view: 4581
+  * After Service Worker (but no FastBoot). [Deployed version](https://3-dot-ember-pwa-14.appspot.com/#/art)
+    * Cable: [http://www.webpagetest.org/result/160512_QB_9X5/](http://www.webpagetest.org/result/160512_QB_9X5/) - 1st view: 5377, Repeat: 2637
+    * 3G: [http://www.webpagetest.org/result/160512_18_9ZY/](http://www.webpagetest.org/result/160512_18_9ZY/) - 1st view: 7933, Repeat: 3109
+  * FastBoot + SW + critical-path CSS. [Deployed version](https://ember-pwa.herokuapp.com) 
+    * Cable: [http://www.webpagetest.org/result/160511_BT_2FQ2/](http://www.webpagetest.org/result/160511_BT_2FQ2/) - 1st view: 972, Repeat: 414
+    * 3G: [http://www.webpagetest.org/result/160511_R6_2FQC/](http://www.webpagetest.org/result/160511_R6_2FQC/) - 1st view: 2001, Repeat: 426
 
+Time to first meaningful interaction - we are waiting for Lighthouse to support this via the 'input readiness' metric.
 
 ## Prerequisites
 
